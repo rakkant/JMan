@@ -1,5 +1,9 @@
 import java.awt.*;
 
+/**
+ * @author Rakkan Tiasakul 5810546013
+ */
+
 /** An instance is a piece for use in the J*Man!! assignment 2.*/
 public abstract class Piece{
     /** Constants that identify the kind of a piece. */
@@ -64,7 +68,7 @@ public abstract class Piece{
     
     /** = the map this piece is on. */
     public Map getMap(){
-        return null;
+        return map;
     }
     
     /** Set this piece's x location to x. */
